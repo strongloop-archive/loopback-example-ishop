@@ -1,0 +1,45 @@
+<nav-page ng-controller="ReservationController">
+    <view title="viewTitle">
+        <content has-header="true" class="list card" ng-model="reservationReqObj">
+            <div class="card">
+                <div class="item item-divider item-text-wrap">
+                    <span class="dealer-detail-title">{{ reservationReqObj.dealer.name }}</span>
+                </div>
+                <div class="item item-text-wrap">
+                    <span>{{ reservationReqObj.dealer.address }}</span>&nbsp;<span>{{ reservationReqObj.dealer.city }}</span>
+                    <br/>
+                    <span>{{ reservationReqObj.dealer.phone }}</span>
+                </div>
+            </div>
+            <div class="item item-body">
+
+
+                <img ng-src="{{ getThumb(reservationReqObj.car.carClass) }}" class="my-reservations-item-thumb">
+
+
+                <strong>{{ formatCarClass(reservationReqObj.car.carClass) }}</strong>
+                <br/>
+                <strong>{{ reservationReqObj.car.rate }}&nbsp;per day*</strong>
+
+                <div class="row">
+                    <div class="col">
+                        <label class="block-label">From Date:</label>
+
+                        <div>{{ reservationReqObj.fromDate }}</div>
+                    </div>
+                    <div class="col">
+                        <label class="block-label">To Date:</label>
+
+                        <div>{{ reservationReqObj.toDate }}</div>
+                    </div>
+                </div>
+
+
+                <button ng-click="confirmReservation()" ng-disabled="isConfirmResDisabled()"
+                        class="button button-block button-{{ themeName }}">Confirm Reservation
+                </button>
+
+            </div>
+        </content>
+    </view>
+</nav-page>

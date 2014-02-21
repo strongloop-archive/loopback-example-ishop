@@ -1,0 +1,26 @@
+<nav-page hide-back-button="false">
+    <view title="viewTitle">
+        <content has-header="true"
+                 scroll="true">
+            <a class="button button-full button-outline" ui-sref="home">
+                Home
+            </a>
+            <a class="button button-full button-outline" ui-sref="myreservations" ng-show="showMyReservations()">
+                My Reservations
+            </a>
+            <h2>preferences:</h2>
+            <ul class="list">
+
+                <li class="item item-checkbox" ng-show="showReceiveNotifications()">
+                    <label class="checkbox">
+                        <input type="checkbox" checked="checked">
+                    </label>
+                    receive notifications
+                </li>
+
+            </ul>
+            <h2>choose theme:</h2>
+            <div lb-profile-choose-theme></div>
+        </content>
+    </view>
+</nav-page>

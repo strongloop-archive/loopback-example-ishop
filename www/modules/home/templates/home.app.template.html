@@ -1,0 +1,59 @@
+<nav-page hide-back-button="false">
+    <view title="viewTitle">
+        <tabs tabs-style="tabs-icon-top" tabs-type="tabs-dark" animate-nav="true">
+
+            <!--
+
+            Dealers tab
+
+            -->
+            <tab title="Dealers" icon="icon ion-model-s" ng-controller="DealerController">
+
+                <content has-header="true" has-tabs="true" on-refresh="onRefresh()">
+                    <div lb-dealer-main-directive></div>
+                </content>
+
+            </tab>
+
+
+            <!--
+
+            Search tab
+
+            -->
+            <tab title="Search" icon="icon ion-search">
+
+                <content has-header="true" has-tabs="true" padding="true">
+                    <div lb-search-directive ng-controller="SearchController"></div>
+                </content>
+
+            </tab>
+
+            <!--
+
+            Location tab
+
+            -->
+            <tab title="Location" icon="icon ion-location">
+                <content has-header="true" has-tabs="true" padding="true">
+                    <div lb-location-directive ng-controller="LocationController"></div>
+                </content>
+            </tab>
+
+            <!--
+
+            Home tab
+
+            -->
+            <tab title="Home" icon="icon ion-home" ng-controller="HomeTabController">
+                <content has-header="true" has-tabs="true" padding="true">
+
+                </content>
+
+            </tab>
+
+
+        </tabs>
+
+    </view>
+</nav-page>

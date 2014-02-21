@@ -1,0 +1,23 @@
+<div class="item item-text-wrap">
+    <label>Current location:</label>
+    <br/>
+
+    <p>{{ currentLocation.name }}</p>
+
+    <div class="row">
+        <div class="col">
+            <button class="button button-block button-{{ themeName }}" ng-click="findCars()"
+                    data-name=""
+                    data-lat="" data-lng=""
+                    data-cmd="findCars">
+                Find Cars
+            </button>
+        </div>
+        <div class="col">
+            <button ng-click="mapLatestGeo()" data-name="" data-lat="" data-lng=""
+                    class="button button-block "
+                    data-cmd="mapThis">Map it
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,27 @@
+<nav-page ng-controller="ConfirmationController">
+    <view title="viewTitle">
+        <content has-header="true" class="list card">
+
+            <div class="card">
+                <div class="item item-text-wrap">
+                    <div>Thank You, your car has been reserved</div>
+                    <p>Your confirmation number is: <strong>&nbsp;{{ confirmationNumber }}</strong></p>
+                </div>
+            </div>
+
+            <a class="button button-full button-outline" ui-sref="myreservations">
+                My Reservations
+            </a>
+        </content>
+
+
+        <div class="bar bar-footer bar-light">
+
+            <button class="button button-full button-light" ui-sref="home">
+                Home
+            </button>
+        </div>
+
+
+    </view>
+</nav-page>

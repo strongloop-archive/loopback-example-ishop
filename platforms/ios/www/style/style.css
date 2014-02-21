@@ -1,0 +1,44 @@
+body{
+    background-color:#000000;
+}
+.home-view {
+    background: #000000 url('images/icar-splash-bg-4c.png');
+    padding-top: 6rem;
+}
+
+@media (min-width: 480px) {
+    .home-view {
+        background: #000000 url('images/icar-splash-bg-4c-lg.png');
+    }
+}
+
+.home-view .button-outline {
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: 135%;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    border-color: #dddddd;
+}
+
+.btn-cmd {
+    border: 0;
+    background: transparent;
+    text-decoration: underline;
+}
+
+.col-centered {
+    text-align: center;
+}
+
+[data-card-name="searchMain"] #SelectCarType {
+    margin: 0 auto 0 auto;
+}
+
+.angular-google-map-container {
+    height: 400px;
+}
+
+.my-reservations-item-thumb {
+    float: right;
+}

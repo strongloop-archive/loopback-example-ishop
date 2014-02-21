@@ -1,0 +1,40 @@
+<view title="viewTitle">
+    <!--
+
+     Location Lookup
+
+     -->
+    <div lb-address-lookup="addressLookup" class="card"></div>
+
+
+    <!--
+
+        Current Location
+
+    -->
+    <div lb-current-location="currentLocation" class="card" ng-show="currentLocationDisplay()"></div>
+
+
+    <!--
+
+        Find Me
+
+     -->
+    <div lb-find-me class="card"></div>
+
+
+    <!--
+
+        location history
+
+    -->
+    <div lb-location-history class="card" ng-show="locationHistoryDisplay()"></div>
+
+
+    <!--
+
+        map view
+
+    -->
+    <div lb-map-view class="card" ng-controller="MapController" ng-show="locationMapDisplay()"></div>
+</view>
