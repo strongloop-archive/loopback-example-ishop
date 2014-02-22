@@ -24,7 +24,7 @@ Home.controller('HomeController', [
       // post app initialization key to server
       Installation.create({
           appId: '1',
-          userId: 'sean',
+          userId: ProfileService.getCurrentUserId() || '',
           deviceToken: window.localStorage.getItem('APNKey'),
           deviceType: 'ios',
           created: new Date(),
