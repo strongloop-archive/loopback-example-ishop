@@ -13,7 +13,7 @@ app.directive('thumbDirective', function (RestService) {
     replace: true,
     controller: function ($scope) {
       $scope.getCarImage = function () {
-        return RestService.restHost + 'images/car/' + $scope.car.carClass + '-thumb.png';
+        return './images/car/' + $scope.car.carClass + '-thumb.png';
       };
     }
   };
