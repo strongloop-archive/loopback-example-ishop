@@ -10,7 +10,7 @@
 app.controller('AppHeaderController', [
   '$scope',
   function ($scope) {
-    $scope.headerTitle = 'iCars';
+    $scope.headerTitle = 'iShop';
     $scope.rightButtons = [
       {
         type: 'button-dark',

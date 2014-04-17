@@ -13,7 +13,7 @@
  * */
 app.service('RestService', function () {
   return {
-    restHost: 'http://0.0.0.0:3000/'
+    restHost: 'http://0.0.0.0:3003/'
   };
 });
 app.service('UIService', [

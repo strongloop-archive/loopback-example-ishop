@@ -43,7 +43,7 @@ Home.controller('HomeController', [
 
 
 
-    $scope.viewTitle = 'iCars';
+    $scope.viewTitle = 'iShop';
 
     $scope.showMyReservations = function () {
       if (ProfileService.getCurrentUserId()) {
@@ -72,7 +72,7 @@ Home.controller('HomeAppController', [
   '$scope',
   function ($scope) {
 
-    $scope.viewTitle = 'iCars';
+    $scope.viewTitle = 'iShop';
   }
 ]);
 app.controller('HomeTabController', [

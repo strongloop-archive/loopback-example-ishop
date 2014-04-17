@@ -24,13 +24,13 @@ Search.directive('lbSearchDirective', [
 
         /**
          *
-         * findCars
+         * findProducts
          *
          * save search model
          * change tabs to trigger a new search
          *
          * */
-        $scope.findCars = function () {
+        $scope.findProducts = function () {
 
           SearchService.setSearchModel($scope.searchModel);
 

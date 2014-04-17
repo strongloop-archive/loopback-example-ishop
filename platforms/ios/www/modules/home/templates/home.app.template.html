@@ -3,14 +3,26 @@
         <tabs tabs-style="tabs-icon-top" tabs-type="tabs-dark" animate-nav="true">
 
             <!--
+             
+             Home tab
+             
+             -->
+            <tab title="Home" icon="icon ion-home" ng-controller="HomeTabController">
+                <content has-header="true" has-tabs="true" padding="true">
+                    
+                </content>
+                
+            </tab>
 
-            Dealers tab
+            <!--
+
+            Products tab
 
             -->
-            <tab title="Dealers" icon="icon ion-model-s" ng-controller="DealerController">
+            <tab title="Products" icon="icon ion-model-s" ng-controller="ProductController">
 
                 <content has-header="true" has-tabs="true" on-refresh="onRefresh()">
-                    <div lb-dealer-main-directive></div>
+                    <div lb-product-main-directive></div>
                 </content>
 
             </tab>
@@ -31,27 +43,17 @@
 
             <!--
 
-            Location tab
+            Cart tab
 
             -->
-            <tab title="Location" icon="icon ion-location">
+
+            <tab title="Cart" icon="icon ion-location">
                 <content has-header="true" has-tabs="true" padding="true">
-                    <div lb-location-directive ng-controller="LocationController"></div>
+                    <div lb-cart-directive ng-controller="CartController"></div>
                 </content>
             </tab>
-
-            <!--
-
-            Home tab
-
-            -->
-            <tab title="Home" icon="icon ion-home" ng-controller="HomeTabController">
-                <content has-header="true" has-tabs="true" padding="true">
-
-                </content>
-
-            </tab>
-
+            
+  
 
         </tabs>
 

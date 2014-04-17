@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.strongloop.icars" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.strongloop.ishop" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Hello Cordova</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -27,7 +27,7 @@
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
     </feature>
-    <name>iCars</name>
+    <name>iShop</name>
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>

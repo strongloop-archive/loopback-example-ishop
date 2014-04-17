@@ -1,4 +1,4 @@
-iCar client app.
+iShop client app.
 
 This is an XCode/phonegap project targeting iOS mobile devices.
 

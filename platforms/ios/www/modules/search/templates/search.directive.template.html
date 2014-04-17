@@ -5,35 +5,35 @@
         </div>
         <form>
             <div class="row col-centered">
-                <!-- Select Car type -->
-                <select id="SelectCarType" name="SelectCarType" ng-model="searchModel.carClass">
+                <!-- Select Product type -->
+                <select id="SelectProductType" name="SelectProductType" ng-model="searchModel.ProductClass">
                     <option value="subcompact" class="">
-                        <img height="80" src="../images/car/subcompact-thumb.png">
+                        <img height="80" src="../images/product/subcompact-thumb.png">
 
                         <p>Economy</p>
                     </option>
                     <option value="compact" class="">
-                        <img height="80" src="../images/car/compact-thumb.png">
+                        <img height="80" src="../images/product/compact-thumb.png">
 
                         <p>Compact</p>
                     </option>
                     <option value="midsize" class="">
-                        <img src="../images/car/midsize-thumb.png">
+                        <img src="../images/product/midsize-thumb.png">
 
                         <p>Mid Size</p>
                     </option>
                     <option value="fullsize" class="">
-                        <img src="../images/car/fullsize-thumb.png">
+                        <img src="../images/Product/fullsize-thumb.png">
 
                         <p>Full Size</p>
                     </option>
                     <option value="pickup" class="">
-                        <img src="../images/car/pickup-thumb.png">
+                        <img src="../images/product/pickup-thumb.png">
 
                         <p>Pickup</p>
                     </option>
                     <option value="suv" class="">
-                        <img src="../images/car/suv-thumb.png">
+                        <img src="../images/product/suv-thumb.png">
 
                         <p>SUV</p>
                     </option>
@@ -65,15 +65,7 @@
             </div>
 
         </form>
-        <!--
 
-        Current Location
-
-        -->
-        <!-- Summary -->
-        <label>Near&nbsp;</label>
-
-        <div lb-current-location="currentLocation" class="card" ng-show="currentLocationDisplay()"></div>
     </div>
 </view>
 

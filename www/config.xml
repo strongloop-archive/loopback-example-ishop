@@ -9,7 +9,7 @@
     <feature name="Geolocation">
         <param name="ios-package" value="CDVLocation" />
     </feature>
-    <name>iCars</name>
+    <name>iShop</name>
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>

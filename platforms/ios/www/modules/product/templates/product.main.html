@@ -1,0 +1,17 @@
+<view title="viewTitle">
+    <refresher></refresher>
+    <slide-box>
+        <slide>
+            <div class="box white">
+                <list>
+                    <item ng-repeat="product in products" type="item-text-wrap" ng-click="detailView(product.id)">
+                        <h3> {{product.displayName}}</h3>
+
+                        <p> {{product.listPrice}},&nbsp;{{ product.salePrice }}</p>
+                    </item>
+                </list>
+                <div debug-region></div>
+            </div>
+        </slide>
+      </slide-box>
+</view>

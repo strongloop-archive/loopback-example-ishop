@@ -1,4 +1,4 @@
-<nav-page ng-controller="DealerDetailController">
+<nav-page ng-controller="ProductDetailController">
     <view title="viewTitle">
         <content has-header="true">
 
@@ -7,22 +7,21 @@
                     <div class="box white">
                         <!--
 
-                         Dealer Detail Card
+                         Product Detail Card
 
                          -->
                         <div class="card">
                             <div class="item item-divider item-text-wrap">
-                                <span class="dealer-detail-title">{{ dealerDetail.name }}</span>
+                                <span class="product-detail-title">{{ productDetail.displayName }}</span>
                             </div>
                             <div class="item item-text-wrap">
-                                <span>{{ dealerDetail.address }}</span>&nbsp;<span>{{ dealerDetail.city }}</span>
+                                <span>{{ productDetail.listPrice }}</span>&nbsp;<span>{{ productDetail.salePrice }}</span>
                                 <br/>
-                                <span>{{ dealerDetail.phone }}</span>
                             </div>
                         </div>
 
 
-                        <h2 class="dealer-cars-list-title">Available Cars</h2>
+                        <h2 class="dealer-cars-list-title">Products</h2>
                         <ul class="dealer-car-list">
                             <li class="item item-thumbnail-left" ng-repeat="car in inventory">
 
@@ -42,18 +41,6 @@
 
                             </li>
                         </ul>
-                    </div>
-                </slide>
-                <slide>
-                    <div class="box white" ng-controller="DealerLocationController">
-                        <google-map
-                                center="map.center"
-                                zoom="map.zoom"
-                                bounds="map.bounds"
-                                draggable="true">
-                            <marker coords="currentLocation.coords" options="currentLocation.options"></marker>
-                            <markers models="dealerLoc" coords="'self'"></markers>
-                        </google-map>
                     </div>
                 </slide>
             </slide-box>
