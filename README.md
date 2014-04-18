@@ -1,5 +1,9 @@
 iShop client app.
 
-This is an XCode/phonegap project targeting iOS mobile devices.
+This is an XCode/Cordova project targeting iOS mobile devices.
 
-It also supports Push Notifications.
+To run the application:
+
+    cordova build ios
+    cordova emulate ios    
+
