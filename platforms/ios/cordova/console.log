@@ -1,0 +1,108 @@
+2014-04-18 13:39:27.385 iShop[22777:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 13:39:27.393 iShop[22777:70b] Unlimited access to network resources
+2014-04-18 13:39:27.500 iShop[22777:70b] Resetting plugins due to page load.
+2014-04-18 13:39:28.186 iShop[22777:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:11:34.424 iShop[24756:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:11:34.432 iShop[24756:70b] Unlimited access to network resources
+2014-04-18 14:11:34.572 iShop[24756:70b] Resetting plugins due to page load.
+2014-04-18 14:11:35.169 iShop[24756:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:14:47.267 iShop[24890:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:14:47.273 iShop[24890:70b] Unlimited access to network resources
+2014-04-18 14:14:47.318 iShop[24890:70b] Resetting plugins due to page load.
+2014-04-18 14:14:47.739 iShop[24890:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:18:02.211 iShop[25133:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:18:02.219 iShop[25133:70b] Unlimited access to network resources
+2014-04-18 14:18:02.355 iShop[25133:70b] Resetting plugins due to page load.
+2014-04-18 14:18:02.748 iShop[25133:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:18:17.665 iShop[25133:4003] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-04-18 14:26:00.646 iShop[25373:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:26:00.651 iShop[25373:70b] Unlimited access to network resources
+2014-04-18 14:26:00.694 iShop[25373:70b] Resetting plugins due to page load.
+2014-04-18 14:26:01.241 iShop[25373:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:28:06.181 iShop[25609:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:28:06.189 iShop[25609:70b] Unlimited access to network resources
+2014-04-18 14:28:06.305 iShop[25609:70b] Resetting plugins due to page load.
+2014-04-18 14:28:06.775 iShop[25609:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:33:06.589 iShop[25825:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:33:06.594 iShop[25825:70b] Unlimited access to network resources
+2014-04-18 14:33:06.638 iShop[25825:70b] Resetting plugins due to page load.
+2014-04-18 14:33:07.040 iShop[25825:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:34:21.703 iShop[26051:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:34:21.708 iShop[26051:70b] Unlimited access to network resources
+2014-04-18 14:34:21.813 iShop[26051:70b] Resetting plugins due to page load.
+2014-04-18 14:34:22.198 iShop[26051:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:41:52.540 iShop[26276:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:41:52.545 iShop[26276:70b] Unlimited access to network resources
+2014-04-18 14:41:52.588 iShop[26276:70b] Resetting plugins due to page load.
+2014-04-18 14:41:53.497 iShop[26276:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:42:03.451 iShop[26412:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:42:03.457 iShop[26412:70b] Unlimited access to network resources
+2014-04-18 14:42:03.560 iShop[26412:70b] Resetting plugins due to page load.
+2014-04-18 14:42:03.970 iShop[26412:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:44:21.650 iShop[26652:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:44:21.660 iShop[26652:70b] Unlimited access to network resources
+2014-04-18 14:44:21.769 iShop[26652:70b] Resetting plugins due to page load.
+2014-04-18 14:44:22.102 iShop[26652:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:49:24.581 iShop[26908:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:49:24.588 iShop[26908:70b] Unlimited access to network resources
+2014-04-18 14:49:24.687 iShop[26908:70b] Resetting plugins due to page load.
+2014-04-18 14:49:25.110 iShop[26908:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:51:01.375 iShop[27151:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:51:01.383 iShop[27151:70b] Unlimited access to network resources
+2014-04-18 14:51:01.507 iShop[27151:70b] Resetting plugins due to page load.
+2014-04-18 14:51:01.882 iShop[27151:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 14:54:52.080 iShop[27390:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 14:54:52.085 iShop[27390:70b] Unlimited access to network resources
+2014-04-18 14:54:52.196 iShop[27390:70b] Resetting plugins due to page load.
+2014-04-18 14:54:53.055 iShop[27390:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 15:17:11.902 iShop[27671:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:17:11.910 iShop[27671:70b] Unlimited access to network resources
+2014-04-18 15:17:12.038 iShop[27671:70b] Resetting plugins due to page load.
+2014-04-18 15:17:12.454 iShop[27671:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 15:29:40.844 iShop[27934:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:29:40.850 iShop[27934:70b] Unlimited access to network resources
+2014-04-18 15:29:40.944 iShop[27934:70b] Resetting plugins due to page load.
+2014-04-18 15:29:41.524 iShop[27934:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+Terminating in response to SpringBoard's termination.
+2014-04-18 15:38:00.620 iShop[28188:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:38:00.629 iShop[28188:70b] Unlimited access to network resources
+2014-04-18 15:38:00.771 iShop[28188:70b] Resetting plugins due to page load.
+2014-04-18 15:38:01.107 iShop[28188:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html
+2014-04-18 15:38:25.153 iShop[28333:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:38:25.159 iShop[28333:70b] Unlimited access to network resources
+2014-04-18 15:38:25.262 iShop[28333:70b] Resetting plugins due to page load.
+2014-04-18 15:38:25.869 iShop[28333:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-04-18 15:38:58.164 iShop[28562:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:38:58.170 iShop[28562:70b] Unlimited access to network resources
+2014-04-18 15:38:58.272 iShop[28562:70b] Resetting plugins due to page load.
+2014-04-18 15:38:58.698 iShop[28562:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 15:46:41.837 iShop[28815:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:46:41.843 iShop[28815:70b] Unlimited access to network resources
+2014-04-18 15:46:41.945 iShop[28815:70b] Resetting plugins due to page load.
+2014-04-18 15:46:42.567 iShop[28815:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 15:50:14.533 iShop[29052:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:50:14.538 iShop[29052:70b] Unlimited access to network resources
+2014-04-18 15:50:14.639 iShop[29052:70b] Resetting plugins due to page load.
+2014-04-18 15:50:15.067 iShop[29052:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 15:50:27.075 iShop[29052:3f03] void SendDelegateMessage(NSInvocation *): delegate (webView:runJavaScriptAlertPanelWithMessage:initiatedByFrame:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-04-18 15:52:10.314 iShop[29260:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:52:10.319 iShop[29260:70b] Unlimited access to network resources
+2014-04-18 15:52:10.362 iShop[29260:70b] Resetting plugins due to page load.
+2014-04-18 15:52:10.749 iShop[29260:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 15:52:22.323 iShop[29396:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:52:22.331 iShop[29396:70b] Unlimited access to network resources
+2014-04-18 15:52:22.443 iShop[29396:70b] Resetting plugins due to page load.
+2014-04-18 15:52:22.881 iShop[29396:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 15:53:35.917 iShop[29628:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:53:35.925 iShop[29628:70b] Unlimited access to network resources
+2014-04-18 15:53:36.033 iShop[29628:70b] Resetting plugins due to page load.
+2014-04-18 15:53:36.450 iShop[29628:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 15:54:59.672 iShop[29859:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:54:59.679 iShop[29859:70b] Unlimited access to network resources
+2014-04-18 15:54:59.780 iShop[29859:70b] Resetting plugins due to page load.
+2014-04-18 15:55:00.131 iShop[29859:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/
+2014-04-18 15:56:30.916 iShop[30094:70b] Multi-tasking -> Device: YES, App: YES
+2014-04-18 15:56:30.925 iShop[30094:70b] Unlimited access to network resources
+2014-04-18 15:56:31.082 iShop[30094:70b] Resetting plugins due to page load.
+2014-04-18 15:56:31.472 iShop[30094:70b] Finished load of: file:///Users/rfeng/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/44A5A75E-8C4D-4C4C-B7F4-E093E9268F47/iShop.app/www/index.html#/

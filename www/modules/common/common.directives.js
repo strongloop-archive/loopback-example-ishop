@@ -7,20 +7,7 @@
  * Time: 7:52 AM
  *
  */
-//app.directive('dealerIdList', [
-//  'RestService',
-//  function (RestService) {
-//    return {
-//      template: '{{ dealer.id }}',
-//      replace: true,
-//      controller: function ($scope, RestService, DealerService) {
-//
-//        $scope.dealers = DealerService.getAllDealers();
-//
-//      }
-//    };
-//  }
-//]);
+
 app.directive('debugRegion',
   function () {
     return{

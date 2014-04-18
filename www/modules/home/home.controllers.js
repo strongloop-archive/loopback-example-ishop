@@ -15,66 +15,18 @@
 Home.controller('HomeController', [
   '$scope',
   '$state',
-  'ProfileService',
-  'Installation',
-  function ($scope, $state, ProfileService, Installation) {
-
-
-    if(window.localStorage.getItem('APNKey') && (!JSON.parse(window.localStorage.getItem('pnRegistered')))){
-      // post app initialization key to server
-      Installation.create({
-          appId: '1',
-          userId: ProfileService.getCurrentUserId() || '',
-          deviceToken: window.localStorage.getItem('APNKey'),
-          deviceType: 'ios',
-          created: new Date(),
-          modified: new Date(),
-          status: 'Active'
-        },
-        function (response) {
-         // alert('Registration record is created: ', JSON.stringify(response));
-          window.localStorage.setItem('pnRegistered','true');
-        },
-        function(response){
-          alert('problem creating installation record: ' + JSON.stringify(response))
-        });
-    }
-
-
-
-
+  function ($scope, $state) {
     $scope.viewTitle = 'iShop';
-
-    $scope.showMyReservations = function () {
-      if (ProfileService.getCurrentUserId()) {
-        return true;
-      }
-      return false;
-    };
-    $scope.showLogin = function () {
-      if (ProfileService.getCurrentUserId()) {
-        return false;
-      }
-      return true;
-
-    };
-    $scope.showRegister = function () {
-      if (ProfileService.getCurrentUserId()) {
-        return false;
-      }
-      return true;
-
-    };
-
   }
 ]);
+
 Home.controller('HomeAppController', [
   '$scope',
   function ($scope) {
-
     $scope.viewTitle = 'iShop';
   }
 ]);
+
 app.controller('HomeTabController', [
   '$scope',
   '$state',

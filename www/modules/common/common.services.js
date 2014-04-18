@@ -8,90 +8,22 @@
  *
  */
 /*
- * Reservation Service
+ * Common Service
  *
  * */
 app.service('RestService', function () {
   return {
-    restHost: 'http://0.0.0.0:3000/'
+    restHost: 'http://0.0.0.0:3003/'
   };
 });
+
 app.service('UIService', [
   'RestService',
   function (RestService) {
 
     var svc = {};
     var logArray = [];
-    svc.formatCarClass = function (carClass) {
-
-      var displayName = '';
-
-
-      switch (carClass) {
-
-        case 'subcompact':
-          displayName = 'Economy';
-          break;
-        case 'compact':
-          displayName = 'Compact';
-          break;
-
-        case 'midsize':
-          displayName = 'Midsize';
-          break;
-
-        case 'fullsize':
-          displayName = 'Fullsize';
-          break;
-
-        case 'pickup':
-          displayName = 'Pickup';
-          break;
-
-        case 'suv':
-          displayName = 'SUV';
-          break;
-
-        default:
-
-
-      }
-      return displayName;
-
-    };
-    svc.getCarThumb = function (carClass) {
-      var imgPath = '';
-
-
-      switch (carClass) {
-
-        case 'subcompact':
-          imgPath = RestService.restHost + '/images/car/subcompact-thumb.png';
-          break;
-        case 'compact':
-          imgPath = RestService.restHost + '/images/car/compact-thumb.png';
-          break;
-
-        case 'midsize':
-          imgPath = RestService.restHost + '/images/car/midsize-thumb.png';
-          break;
-
-        case 'fullsize':
-          imgPath = RestService.restHost + '/images/car/fullsize-thumb.png';
-          break;
-
-        case 'pickup':
-          imgPath = RestService.restHost + '/images/car/pickup-thumb.png';
-          break;
-
-        case 'suv':
-          imgPath = RestService.restHost + '/images/car/suv-thumb.png';
-          break;
-
-        default:
-      }
-      return imgPath;
-    };
+        
     svc.getPrimaryThemeName = function () {
       var retVal = window.localStorage.getItem('themeName');
       if (!retVal){

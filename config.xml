@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.strongloop.ishop" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>iShop</name>
+    <description>
+        A hybrid demo application for LoopBack e-commerce
+    </description>
+    <author email="raymond@strongloop.com" href="http://www.strongloop.com">
+        StrongLoop Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

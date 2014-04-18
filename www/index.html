@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <!-- the above charset encoding tag must be the first one after the <head> tag
-        it must appear in the first 1024 bytes of your document,
-    -->
+     it must appear in the first 1024 bytes of your document,
+     -->
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
 
     <title>iShop Prototype - angular ionic</title>
@@ -14,12 +14,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 
-    <meta name="description" content="Angular version of the LoopBack iCar app">
+    <meta name="description"
+          content="Angular version of the LoopBack iShop app">
 
     <link rel="stylesheet" type="text/css" href="css/themes/ionic-ios7.css">
-    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/nightly/css/ionic.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://code.ionicframework.com/nightly/css/ionic.css">
     <link rel="stylesheet" type="text/css" href="style/style.css">
-
 </head>
 
 
@@ -28,7 +29,8 @@
 
 <side-menus>
     <pane side-menu-content>
-        <nav-bar animation="nav-title-slide-ios7" type="bar-dark" back-button-type="button-icon"
+        <nav-bar animation="nav-title-slide-ios7" type="bar-dark"
+                 back-button-type="button-icon"
                  back-button-icon="ion-arrow-left-c"></nav-bar>
 
         <nav-view animation="slide-left-right"></nav-view>
@@ -47,6 +49,7 @@
         </content>
     </side-menu>
 </side-menus>
+
 <!--<script type="text/javascript" src="phonegap.js"></script>-->
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="./js/index.js"></script>
@@ -74,43 +77,29 @@
 <script src='./vendor/modules/angular-google-maps.min.js'></script>
 <script src="./app.js"></script>
 <!-- common -->
+<!--
 <script src="./modules/common/lb-services.js"></script>
+ -->
 <script src="./modules/common/common.services.js"></script>
 <script src="./modules/common/common.directives.js"></script>
 <script src="./modules/common/common.controllers.js"></script>
-<script src="./modules/common/directives/thumb.directive.js"></script>
+
 <!-- home -->
 <script src="./modules/home/home.module.js"></script>
 <script src="./modules/home/home.controllers.js"></script>
-<!-- search -->
-<script src="./modules/search/search.module.js"></script>
-<script src="./modules/search/search.controllers.js"></script>
-<script src="./modules/search/search.directives.js"></script>
-<script src="./modules/search/search.services.js"></script>
-<!-- location -->
-<script src="./modules/location/location.module.js"></script>
-<script src="./modules/location/location.controllers.js"></script>
-<script src="./modules/location/location.services.js"></script>
-<script src="./modules/location/location.directives.js"></script>
-<!-- profile -->
-<script src="./modules/profile/profile.module.js"></script>
-<script src="./modules/profile/profile.controllers.js"></script>
-<script src="./modules/profile/profile.services.js"></script>
-<script src="./modules/profile/profile.directives.js"></script>
-<!-- dealer -->
-<script src="./modules/dealer/dealer.module.js"></script>
-<script src="./modules/dealer/dealer.controllers.js"></script>
-<script src="./modules/dealer/dealer.directives.js"></script>
-<script src="./modules/dealer/dealer.services.js"></script>
-<!-- reservation -->
-<script src="./modules/reservation/reservation.module.js"></script>
-<script src="./modules/reservation/reservation.controllers.js"></script>
-<script src="./modules/reservation/reservation.services.js"></script>
+
+
+<!-- product -->
+<script src="./modules/product/product.module.js"></script>
+<script src="./modules/product/product.controllers.js"></script>
+<script src="./modules/product/product.directives.js"></script>
+<script src="./modules/product/product.services.js"></script>
+
 <!--&lt;!&ndash; push &ndash;&gt;-->
 <!--<script src="./cordova.js"></script>-->
 <!--<script src="./js/index.js"></script>-->
 <!--<script type="text/javascript">-->
-    <!--nApp.initialize();-->
+<!--nApp.initialize();-->
 <!--</script>-->
 </body>
 </html>

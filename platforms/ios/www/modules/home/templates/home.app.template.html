@@ -7,19 +7,21 @@
              Home tab
              
              -->
+            <!--
             <tab title="Home" icon="icon ion-home" ng-controller="HomeTabController">
                 <content has-header="true" has-tabs="true" padding="true">
                     
                 </content>
                 
             </tab>
+            -->
 
             <!--
 
             Products tab
 
             -->
-            <tab title="Products" icon="icon ion-model-s" ng-controller="ProductController">
+            <tab title="Products" icon="icon ion-bag" ng-controller="ProductController">
 
                 <content has-header="true" has-tabs="true" on-refresh="onRefresh()">
                     <div lb-product-main-directive></div>
@@ -27,33 +29,6 @@
 
             </tab>
 
-
-            <!--
-
-            Search tab
-
-            -->
-            <tab title="Search" icon="icon ion-search">
-
-                <content has-header="true" has-tabs="true" padding="true">
-                    <div lb-search-directive ng-controller="SearchController"></div>
-                </content>
-
-            </tab>
-
-            <!--
-
-            Cart tab
-
-            -->
-
-            <tab title="Cart" icon="icon ion-location">
-                <content has-header="true" has-tabs="true" padding="true">
-                    <div lb-cart-directive ng-controller="CartController"></div>
-                </content>
-            </tab>
-            
-  
 
         </tabs>
 
