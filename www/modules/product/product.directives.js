@@ -23,6 +23,7 @@ Product.directive('lbProductMainDirective', [
   }
 ]);
 
+/*
 Product.directive('lbAllProductListDirective', [
   '$templateCache',
   'ProductService',
@@ -38,3 +39,4 @@ Product.directive('lbAllProductListDirective', [
     };
   }
 ]);
+*/
