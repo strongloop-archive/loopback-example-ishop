@@ -1,14 +1,23 @@
 <view title="viewTitle">
     <refresher></refresher>
+    <div class="span12">
+        <input placeholder="Type here to filter products by name"
+               ng-model="query">
+    </div>
     <slide-box>
         <slide>
+            <div ng-show="!products" class="icon ion-loading-a">
+            </div>
             <div class="box white">
                 <list>
-                    <item ng-repeat="product in products" type="item-text-wrap" ng-click="detailView(product.repositoryId)">
-                        <h3> {{product.displayName}} - {{product.currencyCode}} {{product.listPrice}}</h3>
+                    <item ng-repeat="product in products | filter:query"
+                          type="item-text-wrap"
+                          ng-click="detailView(product.repositoryId)">
+                        <h3> {{product.displayName}} - {{product.currencyCode}}
+                            {{product.listPrice}}</h3>
                     </item>
                 </list>
             </div>
         </slide>
-      </slide-box>
+    </slide-box>
 </view>
