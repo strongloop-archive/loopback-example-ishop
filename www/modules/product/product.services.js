@@ -11,7 +11,7 @@
  * http://stackoverflow.com/questions/18473304/how-to-create-a-angular-js-resource-http-factory-service-to-handle-a-query-str
  */
 
-
+var baseURL = 'http://demo.strongloop.com:3008';
 var products = null;
 
 /**
@@ -28,6 +28,7 @@ Product.service('ProductService', [
 
     return {
 
+      baseURL: baseURL,
       /**
        *
        * Get All Products
@@ -45,7 +46,7 @@ Product.service('ProductService', [
           }, 0);
           return;
         }
-        var productURL = 'http://localhost:3000/api/product?filter=%7B%22atg-rest-depth%22%3A+4%7D';
+        var productURL = baseURL + '/api/product?filter=%7B%22atg-rest-depth%22%3A+4%7D';
         $http.get(productURL, {headers: {
           'Accept': 'application/json'
         }}).success(function(productList, status) {
@@ -72,7 +73,7 @@ Product.service('ProductService', [
           }, 0);
           return;
         }
-        var skuURL = 'http://localhost:3000/api/product/' + id + '/skus';
+        var skuURL = baseURL + '/api/product/' + id + '/skus';
         $http.get(skuURL, {headers: {
           'Accept': 'application/json'
         }}).success(function(skus, status) {

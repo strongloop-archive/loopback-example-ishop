@@ -166,4 +166,5 @@ node_modules
 bower_components
 .idea
 .DS_Store
-platforms/ios/www
+platforms/ios
+platforms/android
