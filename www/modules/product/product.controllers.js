@@ -72,6 +72,9 @@ Product.controller('ProductDetailController', [
     $scope.viewTitle = 'Product Detail';
     var id = $stateParams.id;
     $scope.productDetail = ProductService.getProductDetail(id);
+    ProductService.getProductSKUs(id, function(err, skus) {
+      //
+    });
 
   }
 ]);

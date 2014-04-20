@@ -62,7 +62,27 @@ Product.service('ProductService', [
       },
 
       getProductDetail: function (id) {
-        return products[id];
+        return products && products[id];
+      },
+
+      getProductSKUs: function(id, fn) {
+        if(products && products[id] && products[id].childSKUs) {
+          setTimeout(function() {
+            fn && fn(products[id].childSKUs);
+          }, 0);
+          return;
+        }
+        var skuURL = 'http://localhost:3000/api/product/' + id + '/skus';
+        $http.get(skuURL, {headers: {
+          'Accept': 'application/json'
+        }}).success(function(skus, status) {
+          products[id].childSKUs = skus;
+          fn && fn(skus);
+        }).error(function(data, status) {
+          alert('Error: ' + status);
+          fn && fn([]);
+        });
+
       }
     };
   }
