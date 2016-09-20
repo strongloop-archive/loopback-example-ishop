@@ -1,3 +1,7 @@
+**DEPRECATED AS OF 2016-09-19
+
+---
+
 # iShop
 
 iShop is a hybrid mobile application built with HTML5, AngularJS, and Cordova.
